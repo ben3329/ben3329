@@ -14,4 +14,21 @@ git commit -m 'initial project version'
 git clone https://github.com/libgit2/libgit2
 
 git status
+git status -s
+
+-----------------------
+vi .gitignore
+*.a
+!lib.a
+/TODO
+build/
+doc/**/*.pdf
+------------------------
+
+git diff
+git diff --staged
+
+git commit
+git commit -m "asdf"
+git commit -a -m 'asdase'
 
