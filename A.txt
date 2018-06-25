@@ -1,0 +1,17 @@
+git config --global user.name "John Doe"
+git config --golbal user.email johndoe@example.com
+git config --golbal core.editor vim
+git config --list
+git config user.name
+git help config
+git config --help
+man git config
+
+git init
+git add *.c
+git commit -m 'initial project version'
+
+git clone https://github.com/libgit2/libgit2
+
+git status
+
