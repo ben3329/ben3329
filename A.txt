@@ -32,3 +32,12 @@ git commit
 git commit -m "asdf"
 git commit -a -m 'asdase'
 
+git rm
+git rm -f
+git rm --cached
+
+git mv
+
+git log
+git log -p -2
+
