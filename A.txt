@@ -46,7 +46,7 @@ git log --pretty=format:"%h-%an, %ar:%s"
 git log --pretty=format:"%h %s" --graph
 git log --since=2.weeks
 git log --Sfunction_name
-
+git log --oneline --decorate
 git commit --amend
 
 git reset HEAD a.c
@@ -77,3 +77,7 @@ git push 저장소_이름  태그명
 git push 저장소_이름 --tags
 
 git config --global alias.명령어 수행할_명령
+
+git branch testing
+
+git checkout testing
