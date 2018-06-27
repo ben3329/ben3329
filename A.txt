@@ -49,9 +49,9 @@ git log --Sfunction_name
 git log --oneline --decorate
 git commit --amend
 
-git reset HEAD a.c
+git reset HEAD a.c (파일을 unstaged 시킴)
 
-git chekout -- a.c
+git chekout -- a.c (파일을 원래대로 되돌림)
 
 git remote
 git remote -v
@@ -61,7 +61,7 @@ git remote rename 변경전_이름 변경후_이름
 git remote rm 이름
 
 git fetch 이름
-git pull
+git pull 이름 (리모트 저장소 데이터를 가져오고 로컬 데이터와 merge도 시킴)
 
 git push 저장소_이름 브랜치_이름
 git push origin master
@@ -70,18 +70,22 @@ git tag
 git tag -l 'v1.8.5*'
 git tag -a v1.4 -m 'my version 1.4'
 git tag -a 태그명 체크섬
-
-git show
+git tag 태그명
+git show 태그명
 
 git push 저장소_이름  태그명
 git push 저장소_이름 --tags
 
 git config --global alias.명령어 수행할_명령
 
+-------------------
 git branch testing
 git checkout testing
-
+-------------------
+     ||(같은 명령)
+---------------------
 git checkout -b testing
+---------------------
 
 git checkout master
 git merge testing
