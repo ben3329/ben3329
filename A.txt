@@ -79,5 +79,19 @@ git push 저장소_이름 --tags
 git config --global alias.명령어 수행할_명령
 
 git branch testing
-
 git checkout testing
+
+git checkout -b testing
+
+git checkout master
+git merge testing
+
+git branch -d testing
+git branch -D testing
+
+git mergetool
+
+git branch
+git branch -v
+git branch --merged
+git branch --no-merged
